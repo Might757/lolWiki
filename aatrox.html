@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>League of Legends</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;0,700;0,800;0,900;1,200;1,400;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<script defer src="./javascript/functions.js"></script>
+</head>
+<body class="aatroxSpotlightBackground">
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-lol-blue w3-card w3-center w3-large ">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-padding-large w3-large hamburger-bar-item" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars" style="color: #D7A700"></i></a>
+    <a href=""><img src="./images/triangle.png" class="w3-bar-item w3-center" id="navLogo" style="width: 70px; height: 52px;" ></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small league-nav-item w3-text-white" >BASICS</a>
+    <a href="champions.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large league-nav-item w3-text-white">CHAMPIONS</a>
+    <a href="report.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-right league-nav-item w3-text-white">REPORT<i class="fa fa-question-circle" style="margin-left: 5px; color: #D7A700"></i></a>
+
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class=" w3-lol-blue w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-large hidden miniNav">
+    <a href="index.html" class="w3-bar-item  w3-button w3-padding-large league-nav-item w3-text-white">BASICS</a>
+    <a href="champions.html" class="w3-bar-item w3-button w3-padding-large league-nav-item w3-text-white">CHAMPIONS</a>
+    <a href="report.html"" class="w3-bar-item w3-button w3-padding-large league-nav-item w3-text-white">REPORT<i class="fa fa-question-circle" style="margin-left: 5px; color: #D7A700"></i></a>
+  </div>
+</div>
+
+<!-- Header -->
+<div class="w3-row">
+  <header class="w3-container w3-center w3-padding">
+    <div class="w3-display-container hidden">
+      <img src="./images/aatrox/aatrox.jpg" alt="aatrox" id="champion"class="w3-image w3-width bigChampionImg" style="margin-top: 100px">
+      <div class="w3-display-bottommiddle w3-container w3-text-white " style="font-weight: medium; font-size: 26px; font-style: italic; text-shadow: 1px 1px 2px black;">THE DARKIN BLADE</div>
+    </div>
+    <h1 class="leagueTitle w3-text-white hidden" style="font-size: 52px; margin-top: 0px; padding-top: 0">AATROX</h1>
+  </header>
+</div>
+<!--MAIN CONTENT-->
+<section>
+  <!-- PASSIVE -->
+  <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container "  style="background-image: url('./images/background.jpg'); background-repeat: no-repeat; background-size: cover; ">
+    <div class="w3-half">
+      <div class="w3-content w3-mobile" style="margin-top: 20%;">
+        <div class="w3-center">
+          <img src="./images/aatrox/aatrox_passive.jpg" class="w3-image abilities hidden" style="width: 96px">
+          <h3 class=" w3-text-white smallTitle w3-left hidden" style="font-size: 24px; width: 100%; margin-top: 15px;" >PASSIVE</h3>
+          <h1 class=" leagueTitle w3-text-white w3-left hidden" style="font-size: 24px; width: 100%; margin-top: 0px;" >DEATHBRINGER STANCE</h1>
+          <h2 class="w3-text-white w3-center w3-padding hidden" style="font-size: 20px; margin: auto;">Periodically, Aatrox's next basic attack deals bonus physical damage and heals him, based on the target's max health.</h2>
+        </div>
+      </div>
+    </div>
+    <div class="w3-half">
+      <div class="w3-content w3-mobile" style="margin-top: 10%;">
+        <div class="w3-center">
+          <video src="./images/aatrox/aatroxp.webm" class="hidden borderVideo" autoplay muted loop width="100%" style="border-color:rgba(190, 190, 190, 0.579)"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr style="border: 1px solid rgba(190, 190, 190, 0.305);padding: 0; margin: 0;">
+  <!-- Q -->
+  <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" style="background-image: url('./images/background.jpg'); background-repeat: no-repeat; background-size: cover; ">
+    <div class="w3-half">
+
+      <div class="w3-content w3-mobile" style="margin-top: 10%;">
+        <div class="w3-center">
+          <video src="./images/aatrox/aatrooxq.webm" class="hidden borderVideo" autoplay muted loop width="100%" style="border-color:rgba(190, 190, 190, 0.579)"></video>
+        </div>
+      </div>
+    </div>
+    <div class="w3-half">
+      <div class="w3-content w3-mobile" style="margin-top: 20%;">
+        <div class="w3-center">
+          <img src="./images/aatrox/aatrox_q.jpg" class="w3-image abilities hidden" style="width: 96px">
+          <h3 class=" w3-text-white smallTitle w3-left hidden" style="font-size: 24px; width: 100%; margin-top: 15px;" >Q</h3>
+          <h1 class=" leagueTitle w3-text-white w3-left hidden" style="font-size: 24px; width: 100%; margin-top: 0px;" >THE DARKIN BLADE</h1>
+          <h2 class="w3-text-white w3-center w3-padding hidden" style="font-size: 20px; margin: auto;">Aatrox slams his greatsword down, dealing physical damage. He can swing three times, each with a different area of effect.</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr style="border: 1px solid rgba(190, 190, 190, 0.305);padding: 0; margin: 0;">
+    <!-- W -->
+  <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container "  style="background-image: url('./images/background.jpg'); background-repeat: no-repeat; background-size: cover; ">
+    <div class="w3-half">
+      <div class="w3-content w3-mobile" style="margin-top: 20%;">
+        <div class="w3-center">
+          <img src="./images/aatrox/aatrox_w.jpg" class="w3-image abilities hidden" style="width: 96px">
+          <h3 class=" w3-text-white smallTitle w3-left hidden" style="font-size: 24px; width: 100%; margin-top: 15px;" >W</h3>
+          <h1 class=" leagueTitle w3-text-white w3-left hidden" style="font-size: 24px; width: 100%; margin-top: 0px;" >INFERNAL CHAINS</h1>
+          <h2 class="w3-text-white w3-center w3-padding hidden" style="font-size: 20px; margin: auto;">Aatrox smashes the ground, dealing damage to the first enemy hit. Champions and large monsters have to leave the impact area quickly or they will be dragged to the center and take the damage again.</h2>
+        </div>
+      </div>
+    </div>
+    <div class="w3-half">
+      <div class="w3-content w3-mobile" style="margin-top: 10%;">
+        <div class="w3-center">
+          <video src="./images/aatrox/aatroxw.webm" class="hidden borderVideo" autoplay muted loop width="100%" style="border-color:rgba(190, 190, 190, 0.579)"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr style="border: 1px solid rgba(190, 190, 190, 0.305);padding: 0; margin: 0;">
+    <!-- E -->
+  <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" style="background-image: url('./images/background.jpg'); background-repeat: no-repeat; background-size: cover; ">
+    <div class="w3-half">
+
+      <div class="w3-content w3-mobile" style="margin-top: 10%;">
+        <div class="w3-center">
+          <video src="./images/aatrox/aatroxe.webm" class="hidden borderVideo" autoplay muted loop width="100%" style="border-color:rgba(190, 190, 190, 0.579)"></video>
+        </div>
+      </div>
+    </div>
+    <div class="w3-half">
+      <div class="w3-content w3-mobile" style="margin-top: 20%;">
+        <div class="w3-center">
+          <img src="./images/aatrox/aatrox_e.jpg" class="w3-image abilities hidden" style="width: 96px">
+          <h3 class=" w3-text-white smallTitle w3-left hidden" style="font-size: 24px; width: 100%; margin-top: 15px;" >E</h3>
+          <h1 class=" leagueTitle w3-text-white w3-left hidden" style="font-size: 24px; width: 100%; margin-top: 0px;" >UMBRAL DASH</h1>
+          <h2 class="w3-text-white w3-center w3-padding hidden" style="font-size: 20px; margin: auto;">Passively, Aatrox heals when damaging enemy champions. On activation, he dashes in a direction.</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr style="border: 1px solid rgba(190, 190, 190, 0.305);padding: 0; margin: 0;">
+  <!-- R -->
+  <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container "  style="background-image: url('./images/background.jpg'); background-repeat: no-repeat; background-size: cover; ">
+    <div class="w3-half">
+      <div class="w3-content w3-mobile" style="margin-top: 20%;">
+        <div class="w3-center">
+          <img src="./images/aatrox/aatrox_r.jpg" class="w3-image abilities hidden" style="width: 96px">
+          <h3 class=" w3-text-white smallTitle w3-left hidden" style="font-size: 24px; width: 100%; margin-top: 15px;" >R</h3>
+          <h1 class=" leagueTitle w3-text-white w3-left hidden" style="font-size: 24px; width: 100%; margin-top: 0px;" >WORLD ENDER</h1>
+          <h2 class="w3-text-white w3-center w3-padding hidden" style="font-size: 20px; margin: auto;">Aatrox unleashes his demonic form, fearing nearby enemy minions and gaining attack damage, increased healing, and Move Speed. If he gets a takedown, this effect is extended.</h2>
+        </div>
+      </div>
+    </div>
+    <div class="w3-half">
+      <div class="w3-content w3-mobile" style="margin-top: 10%;">
+        <div class="w3-center">
+          <video src="./images/aatrox/aatroxr.webm" class="hidden borderVideo" autoplay muted loop width="100%" style="border-color:rgba(190, 190, 190, 0.579)"></video>
+        </div>
+      </div>
+    </div>
+  </div>   
+  <hr style="border: 1px solid rgba(190, 190, 190, 0.305);padding: 0; margin: 0;">
+</section>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-black">  
+  <p class="w3-text-white">Copyright &copy André Jesus</p>
+  <p class="w3-text-white">References: <a href="https://www.leagueoflegends.com/en-gb/champions/">League of Legends Official Website</a></p>
+ </footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+
+</body>
+</html>

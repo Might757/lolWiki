@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>League of Legends</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;0,700;0,800;0,900;1,200;1,400;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Lato", sans-serif
+        }
+
+        .w3-bar,
+        h1,
+        button {
+            font-family: "Montserrat", sans-serif
+        }
+
+        .fa-anchor,
+        .fa-coffee {
+            font-size: 200px
+        }
+    </style>
+    <script defer src="./javascript/functions.js"></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-lol-blue w3-card w3-center w3-large ">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-padding-large w3-large hamburger-bar-item"
+                href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"
+                    style="color: #D7A700"></i></a>
+            <a href=""><img src="./images/triangle.png" class="w3-bar-item w3-center" alt="tri" id="navLogo"
+                    style="width: 70px; height: 52px;"/></a>
+            <a href="index.html"
+                class="w3-bar-item w3-button w3-padding-large w3-hide-small league-nav-item w3-text-white">BASICS</a>
+            <a href="champions.html"
+                class="w3-bar-item w3-button w3-hide-small w3-padding-large league-nav-item w3-text-white">CHAMPIONS</a>
+            <a href="report.html"
+                class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-right league-nav-item w3-text-white">REPORT<i
+                    class="fa fa-question-circle" style="margin-left: 5px; color: #D7A700"></i></a>
+
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo"
+            class=" w3-lol-blue w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-large hidden miniNav">
+            <a href="index.html"
+                class="w3-bar-item  w3-button w3-padding-large league-nav-item w3-text-white">BASICS</a>
+            <a href="champions.html"
+                class="w3-bar-item w3-button w3-padding-large league-nav-item w3-text-white">CHAMPIONS</a>
+            <a href="report.html" class=" w3-bar-item w3-button w3-padding-large league-nav-item
+                w3-text-white">REPORT<i class="fa fa-question-circle" style="margin-left: 5px; color: #D7A700"></i></a>
+        </div>
+    </div>
+
+    <!-- Second Grid -->
+    <div class="w3-row-padding w3-light-grey w3-padding-top-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-center">
+                <h1 class="w3-margin leagueTitle w3-text-black hidden" style="font-size: 64px">REPORT</h1>
+            </div>
+        </div>
+    </div>
+    <div class="w3-row-padding w3-light-grey w3-container">
+            <div class="w3-center w3-margin">
+                <div class="w3-responsive">
+                    <table class="w3-table w3-border w3-bordered w3-medium">
+                        <tr>
+                            <!--Headers of Table-->
+                            <th>Page</th>
+                            <th>Markup</th>
+                            <th>Responsive</th>
+                            <th colspan="2" class="w3-center">Description</th>
+                        </tr>
+                        <!--First row-->
+                        <tr>
+                            <td><a href="./index.html">Basics (Homepage)</a></td>
+                            <td>HTML5/CSS3/W3CSS</td>
+                            <td>Yes</td>
+                            <td>The <span style="font-weight:800">Basics</span> page explains some basics about the
+                                game, League of Legends, and shows the map of the game, as well as a video with some
+                                gameplay.</td>
+                            <td rowspan="7" style="border: 1px solid lightgrey; vertical-align: middle;">Every page has
+                                fade-in/fade-out animations. These were firstly done in css, but I wanted to make them
+                                animate when the user would scroll on the element, so after doing it on css, I added a
+                                little bit of Javascript to make the on-scroll animations work.</td>
+                        </tr>
+                        <!--Second row-->
+                        <tr>
+                            <td><a href="./champions.html">Champions</a></td>
+                            <td>HTML5/CSS3/W3CSS</td>
+                            <td>Yes</td>
+                            <td>The <span style="font-weight:800">Champions</span> page shows a row with five columns,
+                                which displays 5 different League of Legends champions. Each champion card is a button,
+                                which will redirect to the specific champion's page.</td>
+                        </tr>
+                        <!--Third row-->
+                        <tr>
+                            <td><a href="./aatrox.html">Aatrox</a></td>
+                            <td>HTML5/CSS3/W3CSS</td>
+                            <td>Yes</td>
+                            <td>The <span style="font-weight:800">Aatrox</span> page is a information page about the
+                                champion, Aatrox. This page shows a big header with Aatrox image, title and name. The
+                                rest of the page is designed with 5 rows, each having 2 columns, where it explains each
+                                Aatrox ability with a video of the ability playing.</td>
+                        </tr>
+                        <!--Fourth row-->
+                        <tr>
+                            <td><a href="./ahri.html">Ahri</a></td>
+                            <td>HTML5/CSS3/W3CSS</td>
+                            <td>Yes</td>
+                            <td>The <span style="font-weight:800">Ahri</span> page is a information page about the
+                                champion, Ahri. This page shows a big header with Ahri image, title and name. The rest
+                                of the page is designed with 5 rows, each having 2 columns, where it explains each Ahri
+                                ability with a video of the ability playing.</td>
+                        </tr>
+                        <!--Fifth row-->
+                        <tr>
+                            <td><a href="./akali.html">Akali</a></td>
+                            <td>HTML5/CSS3/W3CSS</td>
+                            <td>Yes</td>
+                            <td>The <span style="font-weight:800">Akali</span> page is a information page about the
+                                champion, Akali. This page shows a big header with Akali image, title and name. The rest
+                                of the page is designed with 5 rows, each having 2 columns, where it explains each Akali
+                                ability with a video of the ability playing.</td>
+                        </tr>
+                        <!--Sixth row-->
+                        <tr>
+                            <td><a href="./akshan.html">Akshan</a></td>
+                            <td>HTML5/CSS3/W3CSS</td>
+                            <td>Yes</td>
+                            <td>The <span style="font-weight:800">Akshan</span> page is a information page about the
+                                champion, Akshan. This page shows a big header with Akshan image, title and name. The
+                                rest of the page is designed with 5 rows, each having 2 columns, where it explains each
+                                Akshan ability with a video of the ability playing.</td>
+                        </tr>
+                        <!--Seventh row-->
+                        <tr>
+                            <td><a href="./alistar.html">Alistar</a></td>
+                            <td>HTML5/CSS3/W3CSS</td>
+                            <td>Yes</td>
+                            <td>The <span style="font-weight:800">Alistar</span> page is a information page about the
+                                champion, Alistar. This page shows a big header with Alistar image, title and name. The
+                                rest of the page is designed with 5 rows, each having 2 columns, where it explains each
+                                Alistar ability with a video of the ability playing.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-black">
+        <p class="w3-text-white">Copyright &copy; André Jesus</p>
+        <p class="w3-text-white">References: <a href="https://www.leagueoflegends.com/en-gb/champions/" >League of Legends Official Website</a></p>
+    </footer>
+
+    <script>
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

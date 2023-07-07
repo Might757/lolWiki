@@ -1,0 +1,126 @@
+https://www.leagueoflegends.com/en-gb/champions/
+
+WHAT IS LEAGUE OF LEGENDS?
+League of Legends is a team-based strategy game where two teams of five powerful champions face off to destroy the other’s base.
+Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory.
+
+DESTROY THE NEXUS!
+The Nexus is the heart of both teams bases. Destroy the enemy’s base first to win the game.
+
+MAKE YOUR CHAMPION THE STRONGEST!
+Champions get stronger by earning experience to level up, and gold to buy more powerful items as the game progresses. Killing minion, jungle camps, epic monsters and enemy champions contributes to stay at the top!
+
+
+
+Aatrox
+PASSIVE
+DEATHBRINGER STANCE
+Periodically, Aatrox's next basic attack deals bonus physical damage and heals him, based on the target's max health.
+
+Q
+THE DARKIN BLADE
+Aatrox slams his greatsword down, dealing physical damage. He can swing three times, each with a different area of effect.
+
+W
+INFERNAL CHAINS 
+Aatrox smashes the ground, dealing damage to the first enemy hit. Champions and large monsters have to leave the impact area quickly or they will be dragged to the center and take the damage again.
+
+E 
+UMBRAL DASH
+Passively, Aatrox heals when damaging enemy champions. On activation, he dashes in a direction.
+
+R
+WORLD ENDER
+Aatrox unleashes his demonic form, fearing nearby enemy minions and gaining attack damage, increased healing, and Move Speed. If he gets a takedown, this effect is extended.
+
+``````
+Ahri
+PASSIVE 
+ESSENCE THEFT
+After killing 9 minions or monsters, Ahri heals. After taking down an enemy champion, Ahri heals for a greater amount.
+
+Q
+ORB OF DECEPTION
+Ahri sends out and pulls back her orb, dealing magic damage on the way out and true damage on the way back.
+
+W 
+FOX-FIRE
+Ahri gains a brief burst of Move Speed and releases three fox-fires, that lock onto and attack nearby enemies.
+
+E
+CHARM
+Ahri blows a kiss that damages and charms an enemy it encounters, instantly stopping movement abilities and causing them to walk harmlessly towards her.
+
+R 
+SPIRIT RUSH
+Ahri dashes forward and fires essence bolts, damaging nearby enemies. Spirit Rush can be cast up to three times before going on cooldown, and gains additional recasts when taking down enemy champions.
+
+``````
+Akali
+PASSIVE
+ASSASSIN'S MARK
+Dealing spell damage to a champion creates a ring of energy around them. Exiting that ring empowers Akali's next Attack with bonus range and damage.
+
+Q 
+FIVE POINT STRIKE
+Akali throws out five kunai, dealing damage based on her bonus Attack Damage and Ability Power and slowing.
+
+W 
+TWILIGHT SHROUD
+Akali drops a cover of smoke and briefly gains Move Speed. While inside the shroud, Akali becomes invisible and unable to be selected by enemy spells and attacks. Attacking or using abilities will briefly reveal her.
+
+E 
+SHURIKEN FLIP
+Flip backward and fire a shuriken forward, dealing magic damage. The first enemy or smoke cloud hit is marked. Re-cast to dash to the marked target, dealing additional damage.
+
+R 
+PERFECT EXECUTION
+Akali leaps in a direction, damaging enemies she strikes. Re-cast: Akali dashes in a direction, executing all enemies she strikes.
+
+``````
+Akshan
+
+PASSIVE
+DIRTY FIGHTING
+Every three hits from Akshan's Attacks and Abilities deals bonus damage and grants him a Shield if the target was a champion. When Akshan Attacks, he fires an additional Attack for reduced damage. If he cancels the additional Attack, he instead gains Move Speed.
+
+Q 
+AVENGERANG
+Akshan throws a boomerang that deals damage going out and coming back, extending its range each time it hits an enemy.
+
+W 
+GOING ROGUE
+Akshan passively marks enemy champions as Scoundrels when they kill his ally champions. If Akshan kills a Scoundrel, he resurrects the allies they killed, gains bonus gold, and clears all marks. When activated, Akshan enters camouflage and gains Move Speed and Mana Regen while moving towards Scoundrels. Akshan loses the camouflage quickly while he is not in brush or near terrain.
+
+E 
+HEROIC SWING
+Akshan fires a grappling hook into terrain then swings around it, repeatedly firing at the nearest enemy while swinging. He can jump off early or gets knocked off when colliding with champions or terrain.
+
+R 
+COMEUPPANCE 
+Akshan locks onto an enemy champion and starts storing bullets. When released, he fires all stored bullets, dealing damage based on missing health to the first champion, minion, or structure hit.
+
+``````
+
+Alistar
+
+PASSIVE 
+TRIUMPHANT ROAR
+Alistar charges his roar by stunning or displacing enemy champions or when nearby enemies die. When fully charged he heals himself all nearby allied champions.
+
+Q 
+PULVERIZE
+Alistar smashes the ground, dealing damage to nearby enemies and tossing them into the air.
+
+W 
+HEADBUTT
+Alistar rams a target with his head, dealing damage and knocking the target back.
+
+E 
+TRAMPLE
+Alistar tramples nearby enemy units, ignoring unit collision and gaining stacks if he damages an enemy champion. At full stacks Alistar's next basic attack against an enemy champion deals additional magic damage and stuns them.
+
+R 
+UNBREAKABLE WILL
+Alistar lets out a wild roar, removing all crowd control effects on himself, and reducing incoming physical and magical damage for the duration.
+

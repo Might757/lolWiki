@@ -1,0 +1,315 @@
+.w3-lol-blue {
+    background-color: #1C343C;
+}
+
+body {
+    font-family: 'Mulish', sans-serif !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.leagueTitle {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.league-nav-item {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+}
+
+.league-nav-item:hover {
+    border-bottom: 1px solid #D7A700 ;
+    background-color: transparent!important;
+    color: white !important;
+}
+.league-nav-item:active {
+    border-bottom: 1px solid #D7A700 ;
+    background-color: transparent!important;
+    color: #D7A700 !important;
+}
+
+.league-p {
+    color: white;
+    font-size: 20px;
+}
+
+.borderStyle {
+    border: 1px solid white;
+    border-radius: 0px 15px 0px 0px;
+    font-size: 24px;
+
+}
+@keyframes startTitleImage {
+    0% {
+        opacity: 0%;
+        transform: translateY(25%);
+        border-bottom-width: 0px;
+    }
+    100% {
+        opacity: 100%;
+        transform: translateY(0%);
+        border-bottom-width: 1px;
+    }
+
+
+}
+
+.imageStyle {
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.186);
+}
+
+.borderVideo {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 0px 15px 0px 0px;
+    font-size: 24px;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(25%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0);
+}
+
+.hidden.imageStyle {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(25%);
+    transition: all 1s;
+}
+
+
+.show.imageStyle {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0);
+}
+
+.hidden.borderVideo {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-25%);
+    transition: all 1s;
+}
+
+
+.show.borderVideo {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0);
+}
+.styledHr {
+    opacity: 75%;
+    width: 20%;
+    margin: auto;
+}
+@keyframes hrAni {
+    0% {
+        opacity: 0%;
+        width: 0%;
+    }
+    100% {
+        opacity: 75%;
+        width: 20%;
+    }
+}
+
+.hidden.styledHr {
+    opacity: 0%;
+    width: 0%;
+    filter: blur(5px);
+    transition: all 1s;
+}
+.show.styledHr {
+    opacity: 75%;
+    width: 20%;
+    margin: auto;
+    filter: blur(0px);
+}
+
+.miniAvatar {
+ font-weight: 600;  
+ border: 1px solid rgba(255, 255, 255, 0.506);
+ border-radius: 25px 0 25px 0;
+ width: 100%;
+ padding: 5px;
+ border-image-outset: 40px;
+}
+.miniAvatar:hover {
+    animation: testAni 1s ease-in-out forwards;
+}
+
+@keyframes testAni {
+    0% {
+        border-color: rgba(255, 255, 255, 0.506); 
+    }
+    10% {
+        border-color: rgba(255, 255, 255, 0.650); 
+    }
+    20% {
+        border-color: rgba(255, 255, 255, 0.800); 
+    }
+    30% {
+        border-color: rgba(255, 255, 255,1); 
+    }
+    40% {
+        border-color: rgba(247,239,209,1); 
+    }
+    50% {
+        border-color: #e7d491; 
+    }
+    60% {
+        border-color: #e4cc74;
+    }
+    70% {
+        border-color: #e3c55b;
+    }
+    80% {
+        border-color: #ddb937;
+    }
+    90% {
+        border-color: #d6ae1b;
+    }
+    100% {
+        border-color: rgba(215,167,0,1);
+    }
+}
+
+
+.w3-button.miniChamp:hover {
+    background-color: transparent !important;
+}
+
+.hidden.miniChamp {
+    opacity: 0%;
+    filter: blur(5px);
+    transform: translateX(-25%);
+    transition: all 1s;
+}
+.show.miniChamp {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0%);
+}
+
+.hidden.styledHr.hrAni {
+    opacity: 0%;
+    width: 0%;
+    filter: blur(5px);
+    transition: all 1s;
+}
+.show.styledHr.hrAni {
+    opacity: 75%;
+    width: 10%;
+    margin: auto;
+    filter: blur(0px);
+}
+
+.hamburger-bar-item:active{
+    background-color:#14242a !important;
+}
+.hamburger-bar-item:focus{
+    background-color:#1C343C !important;
+}
+
+.hidden.miniNav {
+    opacity: 0%;
+    filter: blur(5px);
+    transform: translateY(-25%);
+    transition: all 1s;
+}
+
+.show.miniNav {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0%);
+}
+
+.hidden.w3-display-container {
+    opacity: 0%;
+    filter: blur(5px);
+    transform: translateY(-25%);
+    transition: all 1s;
+}
+.show.w3-display-container  {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0%);
+}
+
+.aatroxSpotlightBackground {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/aatrox/aatrox.jpg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+.ahriSpotlightBackground {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/ahri/ahri.jpg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    transform: blur(5px);
+}
+.akaliSpotlightBackground {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/akali/akali.jpg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+.akshanSpotlightBackground {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/akshan/akshan.jpg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+.alistarSpotlightBackground {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/alistar/alistar.jpg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+
+.bigChampionImg {
+    border-radius: 30px;
+}
+
+.abilities {
+    border: 1px solid rgba(255, 255, 255, 0.506);
+    border-radius: 25px 0 25px 0;
+    padding: 5px;
+    border-image-outset: 40px;
+}
+
+.smallTitle {
+    opacity: 0.7;
+    font-style: italic;
+    font-weight: 200;
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: 3px;
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>League of Legends</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;0,700;0,800;0,900;1,200;1,400;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<script defer src="./javascript/functions.js"></script>
+</head>
+<body class="akaliSpotlightBackground">
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-lol-blue w3-card w3-center w3-large ">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-padding-large w3-large hamburger-bar-item" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars" style="color: #D7A700"></i></a>
+    <a href=""><img src="./images/triangle.png" class="w3-bar-item w3-center" id="navLogo" style="width: 70px; height: 52px;" ></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small league-nav-item w3-text-white" >BASICS</a>
+    <a href="champions.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large league-nav-item w3-text-white">CHAMPIONS</a>
+    <a href="report.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-right league-nav-item w3-text-white">REPORT<i class="fa fa-question-circle" style="margin-left: 5px; color: #D7A700"></i></a>
+
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class=" w3-lol-blue w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-large hidden miniNav">
+    <a href="index.html" class="w3-bar-item  w3-button w3-padding-large league-nav-item w3-text-white">BASICS</a>
+    <a href="champions.html" class="w3-bar-item w3-button w3-padding-large league-nav-item w3-text-white">CHAMPIONS</a>
+    <a href="report.html"" class="w3-bar-item w3-button w3-padding-large league-nav-item w3-text-white">REPORT<i class="fa fa-question-circle" style="margin-left: 5px; color: #D7A700"></i></a>
+  </div>
+</div>
+
+<!-- Header -->
+<div class="w3-row">
+  <header class="w3-container w3-center w3-padding">
+    <div class="w3-display-container hidden">
+      <img src="./images/akali/akali.jpg" alt="akali" class="w3-image w3-width bigChampionImg" style="margin-top: 100px">
+      <div class="w3-display-bottommiddle w3-container w3-text-white " style="font-weight: medium; font-size: 26px; font-style: italic; text-shadow: 1px 1px 2px black;">THE ROGUE ASSASSIN</div>
+    </div>
+    <h1 class="leagueTitle w3-text-white hidden" style="font-size: 52px; margin-top: 0px; padding-top: 0">AKALI</h1>
+  </header>
+</div>
+<!--MAIN CONTENT-->
+<section>
+  <!-- PASSIVE -->
+  <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container "  style="background-image: url('./images/background.jpg'); background-repeat: no-repeat; background-size: cover; ">
+    <div class="w3-half">
+      <div class="w3-content w3-mobile" style="margin-top: 20%;">
+        <div class="w3-center">
+          <img src="./images/akali/akali_p.png" class="w3-image abilities hidden" style="width: 96px">
+          <h3 class=" w3-text-white smallTitle w3-left hidden" style="font-size: 24px; width: 100%; margin-top: 15px;" >PASSIVE</h3>
+          <h1 class=" leagueTitle w3-text-white w3-left hidden" style="font-size: 24px; width: 100%; margin-top: 0px;" >ASSASSIN'S MARK</h1>
+          <h2 class="w3-text-white w3-center w3-padding hidden" style="font-size: 20px; margin: auto;">Dealing spell damage to a champion creates a ring of energy around them. Exiting that ring empowers Akali's next Attack with bonus range and damage.</h2>
+        </div>
+      </div>
+    </div>
+    <div class="w3-half">
+      <div class="w3-content w3-mobile" style="margin-top: 10%;">
+        <div class="w3-center">
+          <video src="./images/akali/akalip.webm" class="hidden borderVideo" autoplay muted loop width="100%" style="border-color:rgba(190, 190, 190, 0.579)"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr style="border: 1px solid rgba(190, 190, 190, 0.305);padding: 0; margin: 0;">
+  <!-- Q -->
+  <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" style="background-image: url('./images/background.jpg'); background-repeat: no-repeat; background-size: cover; ">
+    <div class="w3-half">
+
+      <div class="w3-content w3-mobile" style="margin-top: 10%;">
+        <div class="w3-center">
+          <video src="./images/akali/akaliq.webm" class="hidden borderVideo" autoplay muted loop width="100%" style="border-color:rgba(190, 190, 190, 0.579)"></video>
+        </div>
+      </div>
+    </div>
+    <div class="w3-half">
+      <div class="w3-content w3-mobile" style="margin-top: 20%;">
+        <div class="w3-center">
+          <img src="./images/akali/akali_q.png" class="w3-image abilities hidden" style="width: 96px">
+          <h3 class=" w3-text-white smallTitle w3-left hidden" style="font-size: 24px; width: 100%; margin-top: 15px;" >Q</h3>
+          <h1 class=" leagueTitle w3-text-white w3-left hidden" style="font-size: 24px; width: 100%; margin-top: 0px;" >FIVE POINT STRIKE</h1>
+          <h2 class="w3-text-white w3-center w3-padding hidden" style="font-size: 20px; margin: auto;">Akali throws out five kunai, dealing damage based on her bonus Attack Damage and Ability Power and slowing.</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr style="border: 1px solid rgba(190, 190, 190, 0.305);padding: 0; margin: 0;">
+    <!-- W -->
+  <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container "  style="background-image: url('./images/background.jpg'); background-repeat: no-repeat; background-size: cover; ">
+    <div class="w3-half">
+      <div class="w3-content w3-mobile" style="margin-top: 20%;">
+        <div class="w3-center">
+          <img src="./images/akali/akali_w.png" class="w3-image abilities hidden" style="width: 96px">
+          <h3 class=" w3-text-white smallTitle w3-left hidden" style="font-size: 24px; width: 100%; margin-top: 15px;" >W</h3>
+          <h1 class=" leagueTitle w3-text-white w3-left hidden" style="font-size: 24px; width: 100%; margin-top: 0px;" >TWILIGHT SHROUD</h1>
+          <h2 class="w3-text-white w3-center w3-padding hidden" style="font-size: 20px; margin: auto;">Akali drops a cover of smoke and briefly gains Move Speed. While inside the shroud, Akali becomes invisible and unable to be selected by enemy spells and attacks. Attacking or using abilities will briefly reveal her.</h2>
+        </div>
+      </div>
+    </div>
+    <div class="w3-half">
+      <div class="w3-content w3-mobile" style="margin-top: 10%;">
+        <div class="w3-center">
+          <video src="./images/akali/akaliw.webm" class="hidden borderVideo" autoplay muted loop width="100%" style="border-color:rgba(190, 190, 190, 0.579)"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr style="border: 1px solid rgba(190, 190, 190, 0.305);padding: 0; margin: 0;">
+    <!-- E -->
+  <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" style="background-image: url('./images/background.jpg'); background-repeat: no-repeat; background-size: cover; ">
+    <div class="w3-half">
+
+      <div class="w3-content w3-mobile" style="margin-top: 10%;">
+        <div class="w3-center">
+          <video src="./images/akali/akalie.webm" class="hidden borderVideo" autoplay muted loop width="100%" style="border-color:rgba(190, 190, 190, 0.579)"></video>
+        </div>
+      </div>
+    </div>
+    <div class="w3-half">
+      <div class="w3-content w3-mobile" style="margin-top: 20%;">
+        <div class="w3-center">
+          <img src="./images/akali/akali_e.png" class="w3-image abilities hidden" style="width: 96px">
+          <h3 class=" w3-text-white smallTitle w3-left hidden" style="font-size: 24px; width: 100%; margin-top: 15px;" >E</h3>
+          <h1 class=" leagueTitle w3-text-white w3-left hidden" style="font-size: 24px; width: 100%; margin-top: 0px;" >SHURIKEN FLIP</h1>
+          <h2 class="w3-text-white w3-center w3-padding hidden" style="font-size: 20px; margin: auto;">Flip backward and fire a shuriken forward, dealing magic damage. The first enemy or smoke cloud hit is marked. Re-cast to dash to the marked target, dealing additional damage.</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr style="border: 1px solid rgba(190, 190, 190, 0.305);padding: 0; margin: 0;">
+  <!-- R -->
+  <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container "  style="background-image: url('./images/background.jpg'); background-repeat: no-repeat; background-size: cover; ">
+    <div class="w3-half">
+      <div class="w3-content w3-mobile" style="margin-top: 20%;">
+        <div class="w3-center">
+          <img src="./images/akali/akali_r.png" class="w3-image abilities hidden" style="width: 96px">
+          <h3 class=" w3-text-white smallTitle w3-left hidden" style="font-size: 24px; width: 100%; margin-top: 15px;" >R</h3>
+          <h1 class=" leagueTitle w3-text-white w3-left hidden" style="font-size: 24px; width: 100%; margin-top: 0px;" >PERFECT EXECUTION</h1>
+          <h2 class="w3-text-white w3-center w3-padding hidden" style="font-size: 20px; margin: auto;">Akali leaps in a direction, damaging enemies she strikes. Re-cast: Akali dashes in a direction, executing all enemies she strikes.</h2>
+        </div>
+      </div>
+    </div>
+    <div class="w3-half">
+      <div class="w3-content w3-mobile" style="margin-top: 10%;">
+        <div class="w3-center">
+          <video src="./images/akali/akalir.webm" class="hidden borderVideo" autoplay muted loop width="100%" style="border-color:rgba(190, 190, 190, 0.579)"></video>
+        </div>
+      </div>
+    </div>
+  </div>   
+  <hr style="border: 1px solid rgba(190, 190, 190, 0.305);padding: 0; margin: 0;">
+</section>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-black">  
+  <p class="w3-text-white">Copyright &copy André Jesus</p>
+  <p class="w3-text-white">References: <a href="https://www.leagueoflegends.com/en-gb/champions/">League of Legends Official Website</a></p>
+ </footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+
+</body>
+</html>

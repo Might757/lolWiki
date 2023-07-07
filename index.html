@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>League of Legends</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;0,700;0,800;0,900;1,200;1,400;1,700;1,800;1,900&display=swap;" rel="stylesheet"/>
+    <style type="text/css">
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+    .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+    .fa-anchor,.fa-coffee {font-size:200px}
+    </style>
+  </head>
+  <body>
+
+  <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-lol-blue w3-card w3-center w3-large ">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-padding-large w3-large hamburger-bar-item" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars" style="color: #D7A700"></i></a>
+        <a href=""><img src="./images/triangle.png" alt="tri" class="w3-bar-item w3-center" id="navLogo" style="width: 70px; height: 52px;"/></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small league-nav-item w3-text-white" >BASICS</a>
+        <a href="champions.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large league-nav-item w3-text-white">CHAMPIONS</a>
+        <a href="report.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-right league-nav-item w3-text-white">REPORT<i class="fa fa-question-circle" style="margin-left: 5px; color: #D7A700"></i></a>
+
+      </div>
+
+      <!-- Navbar on small screens -->
+      <div id="navDemo" class=" w3-lol-blue w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-large hidden miniNav">
+        <a href="index.html" class="w3-bar-item  w3-button w3-padding-large league-nav-item w3-text-white">BASICS</a>
+        <a href="champions.html" class="w3-bar-item w3-button w3-padding-large league-nav-item w3-text-white">CHAMPIONS</a>
+        <a href="report.html" class="w3-bar-item w3-button w3-padding-large league-nav-item w3-text-white">REPORT<i class="fa fa-question-circle" style="margin-left: 5px; color: #D7A700"></i></a>
+      </div>
+    </div>
+
+    <!-- Title -->
+    <div class="w3-row">
+      <header class="w3-container w3-center" style="padding:128px 16px">
+        <h1 class="w3-margin leagueTitle w3-text-white hidden" style="font-size: 64px">WHAT IS LEAGUE OF LEGENDS?</h1>
+        <hr class="hidden styledHr"/>
+        <p class="league-p w3-text-white w3-margin-top hidden" style="width: 80%; margin: auto;">League of Legends is a team-based strategy game where two teams of five powerful champions face off to destroy the other’s base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory.</p>
+      </header>
+    </div>
+
+
+    <!-- Destroy Nexus + Image -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+      <div class="w3-margin">
+        <div class="w3-half" style="margin-top: 125px;">
+            <h1 class="leagueTitle w3-text-white w3-center hidden" style="font-size: 64px">DESTROY THE NEXUS!</h1>
+            <h2 class="w3-text-white w3-center borderStyle w3-padding hidden" style="width: 75%; margin: auto;">The Nexus is the heart of both teams bases. Destroy the enemy’s base first to win the game.</h2>  
+        </div>
+
+        <div class="w3-half">
+          <img src="./images/smr.jpg" class="w3-image hidden imageStyle w3-right w3-mobile" alt="summoner's rift" style="width: 75%; margin-top: 15px;"/>
+        </div>
+      </div>
+    </div>
+
+    <!-- Champion EXP with GIF -->
+    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+      <div class="w3-content">
+        <div class="w3-center">
+          <h1 class=" leagueTitle w3-text-black w3-center hidden" style="font-size: 54px; width: 100%;" >MAKE YOUR CHAMPION THE STRONGEST!</h1>
+          <h2 class="w3-text-black w3-center w3-padding hidden" style="font-size: 24px; margin: auto;">Champions get stronger by earning experience to level up, and gold to buy more powerful items as the game progresses. Killing minion, jungle camps, epic monsters and enemy champions contributes to stay at the top!</h2>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding w3-light-grey w3-container ">
+      <div class="w3-content">
+        <div class="w3-center">
+          <video src="./images/main_video.mp4" class="hidden borderVideo" autoplay muted loop style="width: 100%;"></video>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-black">  
+      <p class="w3-text-white">Copyright &copy; André Jesus</p>
+      <p class="w3-text-white">References: <a href="https://www.leagueoflegends.com/en-gb/champions/">League of Legends Official Website</a></p>
+    </footer>
+
+    <script type="text/javascript" src="./javascript/functions.js"></script>
+    <script type="text/javascript">
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
+
+
+  </body>
+</html>

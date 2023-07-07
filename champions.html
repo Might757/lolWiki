@@ -1,0 +1,114 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <title>League of Legends</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;0,700;0,800;0,900;1,200;1,400;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <style>
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+  .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+  .fa-anchor,.fa-coffee {font-size:200px}
+  </style>
+  <script defer src="./javascript/functions.js"></script>
+  </head>
+  <body>
+
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-lol-blue w3-card w3-center w3-large ">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-padding-large w3-large hamburger-bar-item" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars" style="color: #D7A700"></i></a>
+      <a href=""><img src="./images/triangle.png" class="w3-bar-item w3-center" alt="tri" id="navLogo" style="width: 70px; height: 52px;" ></a>
+      <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small league-nav-item w3-text-white" >BASICS</a>
+      <a href="champions.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large league-nav-item w3-text-white">CHAMPIONS</a>
+      <a href="report.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-right league-nav-item w3-text-white">REPORT<i class="fa fa-question-circle" style="margin-left: 5px; color: #D7A700"></i></a>
+
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class=" w3-lol-blue w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-large hidden miniNav">
+      <a href="index.html" class="w3-bar-item  w3-button w3-padding-large league-nav-item w3-text-white">BASICS</a>
+      <a href="champions.html" class="w3-bar-item w3-button w3-padding-large league-nav-item w3-text-white">CHAMPIONS</a>
+      <a href="report.html" class="w3-bar-item w3-button w3-padding-large league-nav-item w3-text-white">REPORT<i class="fa fa-question-circle" style="margin-left: 5px; color: #D7A700"></i></a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <div class="w3-row">
+    <header class="w3-container w3-center" style="padding:128px 16px 0px">
+      <h1 class="w3-margin leagueTitle w3-text-white hidden" style="font-size: 52px">CHAMPIONS</h1>
+      <!-- CHANGE TEST CLASS TO A MORE NORMAL CLASS NAME-->
+      <hr class="hidden styledHr hrAni">
+    </header>
+  </div>
+
+
+  <!-- First Grid -->
+  <div class="w3-row w3-padding-64 w3-container" style="margin-bottom: 90px">
+    <div class="w3-col w3-margin-bottom w3-mobile w3-padding" style="width: 20%;">
+      <div class="w3-card-4 w3-button miniChamp hidden" style="box-shadow: none;">
+        <a href="./aatrox.html" style="text-decoration: none;">
+          <img src="./images/aatrox/aatrox.jpg" alt="aatrox" class="miniAvatar">
+          <p class="w3-text-white leagueTitle w3-center" style="font-size: 20px; text-shadow: 1px 1px black;">AATROX</p>
+        </a>
+      </div>
+    </div>
+    <div class="w3-col w3-margin-bottom w3-mobile w3-padding" style="width: 20%;">
+      <div class="w3-card-4 w3-button miniChamp hidden" style="box-shadow: none;">
+        <a href="./ahri.html" style="text-decoration: none;">
+          <img src="./images/ahri/ahri.jpg" alt="ahri" class="miniAvatar">
+          <p class="w3-text-white leagueTitle w3-center" style="font-size: 20px; text-shadow: 1px 1px black;">AHRI</p>
+        </a>
+      </div>
+    </div>
+    <div class="w3-col w3-margin-bottom w3-mobile w3-padding" style="width: 20%;">
+      <div class="w3-card-4 w3-button miniChamp hidden" style="box-shadow: none;">
+        <a href="./akali.html" style="text-decoration: none;">
+          <img src="./images/akali/akali.jpg" alt="akali" class="miniAvatar">
+          <p class="w3-text-white leagueTitle w3-center" style="font-size: 20px; text-shadow: 1px 1px black;">AKALI</p>
+        </a>
+      </div>
+    </div>
+    <div class="w3-col w3-margin-bottom w3-mobile w3-padding" style="width: 20%;">
+      <div class="w3-card-4 w3-button miniChamp hidden" style="box-shadow: none;">
+        <a href="./akshan.html" style="text-decoration: none;">
+          <img src="./images/akshan/akshan.jpg" alt="akshan" class="miniAvatar">
+          <p class="w3-text-white leagueTitle w3-center" style="font-size: 20px; text-shadow: 1px 1px black;">AKSHAN</p>
+        </a>
+      </div>
+    </div>
+    <div class="w3-col w3-margin-bottom w3-mobile w3-padding" style="width: 20%; ">
+      <div class="w3-card-4 w3-button miniChamp hidden" style="box-shadow: none;">
+        <a href="./alistar.html" style="text-decoration: none;">
+          <img src="./images/alistar/alistar.jpg" alt="alistar" class="miniAvatar">
+          <p class="w3-text-white leagueTitle w3-center" style="font-size: 20px; text-shadow: 1px 1px black;">ALISTAR</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-black">  
+    <p class="w3-text-white">Copyright &copy; André Jesus</p>
+    <p class="w3-text-white">References: <a href="https://www.leagueoflegends.com/en-gb/champions/">League of Legends Official Website</a></p>
+  </footer>
+
+  <script>
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  </script>
+  </body>
+  </html>
